@@ -1,8 +1,6 @@
 import ExpenseDate from './ExpenseDate'; 
 import './ExpenseItem.css'
-function ExpensiveItem(props)  {
- 
-
+function ExpenseItem(props)  {
   return (
   <div className="expense-item">
     <ExpenseDate date={props.date}/> {/*self closing and this is a comment*/}
@@ -14,4 +12,4 @@ function ExpensiveItem(props)  {
   ); 
 }
 
-export default ExpensiveItem; 
+export default ExpenseItem; 
